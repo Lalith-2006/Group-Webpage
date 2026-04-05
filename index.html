@@ -9,10 +9,10 @@
 <body>
 
 <header>
-    <h1>Meet Our Team</h1>
+    <h1>Group 16</h1>
     <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
-
+    <img src="img/Team-logo.png" alt="Team Logo" class="team-logo">
+    <h2>Meet our team</h2>
     <!-- Navigation menu to switch between sections -->
     <nav>
         <button onclick="showSection('bios')">Team Bios</button>
@@ -24,11 +24,16 @@
 <div id="bios" class="container">
     <!-- Each card represents an individual team member -->
     <div class="card">
-        <h2>John Doe</h2>
-        <p>Frontend Developer</p>
+        <img src="img/LalithPhoto.jpg" alt="Lalith's Photo" class="Photo">
+        <h2>Lalith Gundapaneni</h2>
+        <p>Scrum Master</p>
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">John is a skilled frontend developer with 5 years of experience in creating responsive web applications.</p>
+        <p id="bio1" class="bio">I am a Computer Science student who is interested in AI. I enjoy python and solving real world problems with coding.</p>
+        <h3>Moodboard</h3>
+        <img src="img/AI.jpg" alt="AI" class="moodboard-items">
+        <img src="img/Python.svg.png" alt="Python" class="moodboard-items" >
     </div>
+
     <div class="card">
         <h2>Jane Smith</h2>
         <p>Backend Developer</p>
@@ -45,9 +50,17 @@
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
-    <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <h2>Mission Statement</h2>
+    <p>We are a team who value collaboration, communication, and team-work. Our strengths as computer science students focused are critical thinking, coding, and computational thinking. Our goal is to build creative solutions to real world problems with technology.</p>
+    <h3>Team Rules</h3>
+    <ul>
+        <li>Communicate clearly</li>
+        <li>Respect deadlines</li>
+        <li>Help each other</li>
+    </ul>
 </div>
+
+
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
 
